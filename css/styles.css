@@ -1,0 +1,69 @@
+/* CSS HEX - https://coolors.co/9f9aa4-e7cfcd-cfd8d7-b5c9c3-cab1bd */
+/* 
+--manatee: #9f9aa4ff;
+--pale-pink: #e7cfcdff;
+--light-gray: #cfd8d7ff;
+--opal: #b5c9c3ff;
+--black-shadows: #cab1bdff;
+*/
+
+/* Global Styles
+---------------------------------------*/
+
+body {
+  color: rgb(66, 66, 66);
+}
+
+img {
+  width: 300px;
+}
+a {
+  color: #b508fa;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* Profile
+---------------------------------------*/
+
+header {
+  background-color: #b5c9c3;
+}
+
+/* Projects
+---------------------------------------*/
+.projects {
+  background-color: #e7cfcd;
+}
+
+.projects .btn {
+  color: #e7cfcd;
+  background-color: #9f9aa4;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.projects .btn:hover {
+  background-color: rgb(159, 154, 164, 90%);
+}
+
+/* Wor Experience
+---------------------------------------*/
+.work-experince {
+  background-color: #b5c9c3;
+}
+
+/* Education 
+---------------------------------------*/
+
+/* Contact info
+---------------------------------------*/
+footer {
+  background-color: #b5c9c3;
+}
