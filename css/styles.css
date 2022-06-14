@@ -85,6 +85,21 @@ header {
   background-color: rgb(40, 39, 41, 90%);
 }
 
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #282729;
+  padding: 25px 0;
+}
+
+.project-item h3{
+  margin-top: 0;
+}
+
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+
 /* Wor Experience
 ---------------------------------------*/
 .work-experince {
