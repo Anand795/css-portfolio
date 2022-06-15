@@ -58,6 +58,25 @@ a:hover {
 .btn {
   color: #e7cfcd;
 }
+h3 {
+  margin-bottom: 0;
+}
+/* Adjacent Selector - Selects first child*/
+.item-details h3 + p {
+  font-style: italic;
+}
+/* Genaral Sibling combinator - selects all the sibling */
+.item-details h3 ~ p {
+  margin: 0;
+}
+/* pseudo child combinator */
+.divider > section {
+  border-bottom: 1px dashed #282729;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
 
 /* Profile
 ---------------------------------------*/
@@ -88,8 +107,6 @@ header {
 
 .project-item {
   overflow: hidden;
-  border-bottom: 1px dashed #282729;
-  padding: 25px 0;
 }
 
 .project-item h3 {
