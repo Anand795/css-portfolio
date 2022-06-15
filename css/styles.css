@@ -64,6 +64,7 @@ a:hover {
 
 header {
   background-color: #b5c9c3;
+  text-align: center;
 }
 
 /* Projects
@@ -91,7 +92,7 @@ header {
   padding: 25px 0;
 }
 
-.project-item h3{
+.project-item h3 {
   margin-top: 0;
 }
 
@@ -105,6 +106,11 @@ header {
 .work-experince {
   background-color: #b5c9c3;
 }
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
 
 /* Education 
 ---------------------------------------*/
@@ -113,4 +119,17 @@ header {
 ---------------------------------------*/
 footer {
   background-color: #b5c9c3;
+  text-align: center;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
 }
