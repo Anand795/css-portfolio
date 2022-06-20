@@ -83,7 +83,8 @@ h3 {
 ---------------------------------------*/
 
 header {
-  background-color: #b5c9c3;
+  background-color: #272838;
+  color: aliceblue;
 }
 
 /* Projects
@@ -116,7 +117,8 @@ header {
 /* Work Experience
 ---------------------------------------*/
 .work-experience {
-  background-color: #b5c9c3;
+  background-color: #272838;
+  color: aliceblue;
 }
 
 .work-experience li {
@@ -138,7 +140,7 @@ header {
 /* Contact info
 ---------------------------------------*/
 footer {
-  background-color: #3a3d3c;
+  background-color: #272838;
   color: aliceblue;
 }
 
@@ -149,9 +151,15 @@ footer a{
 .contact-list {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: start;
 }
 
-.contact-list a {
+.contact-list img { 
+  width: auto;
+}
+
+.contact-list img {
   padding: 15px;
   display: inline-block;
 }
@@ -175,7 +183,7 @@ footer a{
   }
 
   .contact-list {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
   }
 }
@@ -187,9 +195,5 @@ footer a{
   h1,
   h2 {
     line-height: 1;
-  }
-
-  .contact-list a {
-    padding: 5px;
   }
 }
